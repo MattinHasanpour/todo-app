@@ -1,0 +1,19 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* رنگ پس‌زمینه اسکرولر */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #155dfc; /* رنگ اسکرولر */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d3748; /* رنگ اسکرولر در حالت هاور */
+}
